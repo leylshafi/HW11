@@ -49,6 +49,6 @@ class Program
                                          
 
         Run run = new Run();
-        run.RunFunc(funcDell, str); 
+        run.RunFunc(funcDell, str);
     }
 }
