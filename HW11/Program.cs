@@ -8,12 +8,9 @@ class MyClass
 
     public string Str { get; set; }
     public void Space(string str) => Console.WriteLine(string.Join('_', str.ToCharArray()));
-    public void Reverse(string str)
+    public string Reverse(string str)
     {
-        char[] temp = str.ToCharArray();
-        Array.Reverse(temp);
-        string result = new(temp);
-        Console.WriteLine(result);
+        return str.Reverse();
     } 
 
     public MyClass(string str)
